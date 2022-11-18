@@ -1,0 +1,15 @@
+fun main(){
+    var rows=5
+    var col=5
+    for(i in 1..rows){
+        for(j in 1..col){
+            if(i==1 || i==rows || j==1 || j==rows){
+                print("*"+"")
+            }
+            else{
+                print(" ")
+            }
+        }
+        println("")
+    }
+}
